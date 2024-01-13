@@ -206,8 +206,8 @@ const addTweet = () =>
                     </div>
 
                     <div class="w-full">
-                        <video controls v-if="uploadType === 'mp4'" :src="showUpload" class="rounded-xl overflow-auto"/>
-                        <img v-else :src="showUpload" class="rounded-xl w-80">
+                        <video controls v-if="uploadType === 'mp4'" :src="showUpload" class="rounded-xl"/>
+                        <img v-else :src="showUpload" class="rounded-xl">
                     </div>
                     <div class="flex py-2 items-center text-[#1c9cef] font-extrabold">
                         <EarthIcon class="pr-2" fillColor="#1c9cef" :size="20"/>Everyone can reply

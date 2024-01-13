@@ -9,7 +9,7 @@ defineProps({ tweets : Array })
 </script>
 
 <template>
-    <Head title="Welcome" />
+    <Head title="HomePage" />
 
     <TwitterLayout>
         <div class="text-white">
