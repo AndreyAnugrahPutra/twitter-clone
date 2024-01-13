@@ -21,18 +21,13 @@ function liked()
     isLiked.value = !isLiked.value
 }
 
-function closeOptions()
-{
-    openOptions.value = false
-}
-
 </script>
 
 <template>
     <div class="min-w-[60px]">
         <img :src="tweet.image" class="rounded-full m-2 mt-3" width="50">
     </div>
-    <div class="p-2 w-full" @click="closeOptions()">
+    <div class="p-2 w-full">
         <div class="font-extrabold flex items-center justify-between mt-0.5 mb-1.5">
             <div class="flex items-center">
                 <span class="text-[14px] md:text-[18px]">{{ tweet.name }}</span>
